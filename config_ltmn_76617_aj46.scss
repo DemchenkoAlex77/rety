@@ -1,0 +1,41 @@
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+80,37,64,53,51,15,13,56,42,70,99,92,23,26,99,77,33 / true
+const randomNumber = getRandomNumber();
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const squareRoot = num => Math.sqrt(num);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+42,22,78,77,64,28,17,40,17,47,34,33,47,25,40,3,9,18,5,18,42,66,49,13,36,35,48,59,3,55,52,30,50,12,30,49,73,2,85,14,25,42,17,85,8,85,21,57,20,78,89,41,67,2,5,16,7 / 44
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+kiwi + orange
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const getRandomElement = array => array[getRandomIndex(array)];
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+grape
+
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+grape
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const removeDuplicates = array => Array.from(new Set(array));
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const getUniqueValues = array => [...new Set(array)];
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const randomNumber = getRandomNumber();
+const squareRoot = num => Math.sqrt(num);
