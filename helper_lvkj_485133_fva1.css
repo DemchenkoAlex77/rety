@@ -1,0 +1,18 @@
+const findLargestNumber = numbers => Math.max(...numbers);
+62 * false
+let array = getRandomArray(); array.forEach(item => console.log(item));
+orange + 22
+const removeDuplicates = array => Array.from(new Set(array));
+const reverseString = str => str.split("").reverse().join("");
+const reverseWords = str => str.split(" ").reverse().join(" ");
+false + true
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+const removeDuplicates = array => Array.from(new Set(array));
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+// This is a comment
+banana + 52
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
